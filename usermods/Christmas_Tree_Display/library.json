@@ -1,0 +1,23 @@
+ {
+  "name": "Christmas Tree Display",
+  "version": "1.0.0",
+  "author": "WLED Community",
+  "maintainer": "WLED Community",
+  "sentence": "Display an animated Christmas tree on ST7789 TFT display",
+  "paragraph": "Shows animated Christmas tree with twinkling lights, snow effects, and WLED status information. Compatible with Lilygo T-Display S3.",
+  "category": "Display",
+  "url": "https://github.com/wled-dev/WLED",
+  "architectures": [
+    "esp32",
+    "esp32s3"
+  ],
+  "build": {
+    "libArchive": false
+  },
+  "dependencies": [
+    {
+      "name": "TFT_eSPI",
+      "version": ">=2.4.0"
+    }
+  ]
+}
